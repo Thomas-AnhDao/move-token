@@ -1,0 +1,9 @@
+[package]
+name = 'sota-token'
+version = '1.0.0'
+[dependencies.AptosFramework]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'main'
+subdir = 'aptos-move/framework/aptos-framework'
+[addresses]
+admin = '0x3de5204951b436b3892a8bb40f742c0a359ad7ad0e84f3e4990809042e54fbbd'
